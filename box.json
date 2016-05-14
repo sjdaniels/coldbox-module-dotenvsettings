@@ -1,0 +1,33 @@
+{
+    "name":"DotEnvSettings",
+    "version":"1.0.0+0001",
+    "author":"Sean Daniels <sdaniels@padawan.net>",
+    "homepage":"https://github.com/sjdaniels/coldbox-module-dotenvsettings",
+    "documentation":"https://github.com/sjdaniels/coldbox-module-dotenvsettings/blob/master/README.md",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/sjdaniels/coldbox-module-dotenvsettings.git"
+    },
+    "slug":"dotenvsettings",
+    "shortDescription":"Reads .env secrets file and adds values to ColdBox settings.",
+    "type":"modules",
+    "packageDirectory":"dotenvsettings",
+    "keywords":[
+         "dotenv"
+        ,"settings"
+        ,"secrets"
+    ],
+    "private":false,
+    "engines":[
+        {
+            "type":"lucee",
+            "version":">4.5"
+        },
+        {
+            "type":"adobe",
+            "version":">9.02"
+        }
+    ],
+    "dependencies":{
+    }
+}
