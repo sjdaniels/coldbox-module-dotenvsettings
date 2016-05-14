@@ -1,6 +1,6 @@
 ColdBox DotEnvSettings Module
 ==============================
-This module reads a .env (or other file containing secrets) and loads the values into the parent app's ColdBox settings.
+This module reads a .env (or other file containing secrets) and loads the values into the parent app's ColdBox settings. Based on Eric Peterson's CommandBox Module.
 
 ##LICENSE
 Apache License, Version 2.0.
@@ -28,8 +28,8 @@ MY_OTHER_SECRET=shh
 
 // json style
 {
-     MY_SECRET_KEY="somevalue"
-    ,MY_OTHER_SECRET="shh"
+     "MY_SECRET_KEY"="somevalue"
+    ,"MY_OTHER_SECRET"="shh"
 };
 ```
 
