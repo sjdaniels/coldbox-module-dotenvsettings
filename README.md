@@ -2,22 +2,22 @@ ColdBox DotEnvSettings Module
 ==============================
 This module reads a .env (or other file containing secrets) and loads the values into the parent app's ColdBox settings. Based on Eric Peterson's CommandBox Module.
 
-##LICENSE
+## LICENSE
 Apache License, Version 2.0.
 
-##SYSTEM REQUIREMENTS
+## SYSTEM REQUIREMENTS
 - Railo/Lucee 4+
 - ColdFusion 9+
 - ColdBox 4+
 
 ---
 
-#Instructions
+# Instructions
 Just drop into your `modules` folder or use the box-cli to install
 
 `box install dotenvsettings`
 
-##USAGE
+## USAGE
 Create a .env file in your project root and add to .gitignore or your version control's equivalent (don't commit secrets to your repo!) The file can contain JSON or Java properties style key value pairs:
 
 
